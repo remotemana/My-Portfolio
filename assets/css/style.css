@@ -13,7 +13,9 @@ header {
     display: flex;
     text-align: left;
     margin-top: 40px;
-    margin-right: 900px;
+    margin-right: 1277px;
+    background-color: cornflowerblue;
+    padding-left: 50px;
 }
 
 body {
@@ -47,40 +49,115 @@ li {
     padding: 0 20px;
 }
 
-a {
+nav a {
     color: white;
     text-decoration: none;
 }
 
-#about-me {
-    display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    align-items: center;
-    margin-right: 30px;
-}
-
-#about-me h1 {
-    text-align: right;
-    padding-right: 200px;
-    padding-left: 100px;
-}
 
 footer {
     display: flex;
     background-color: #F4EEA9;
+    /* text-align: center; */
+    padding-bottom: 20px;
+}
+
+.contact-me {
+    /* display: flex; */
+    text-align: left;
+    margin-top: 40px;
+    margin-right: 800px;
+}
+
+.jupiter {
+    width: 10%;
+    padding-left: 20px;
+    /* text-align: right */
+}
+
+.mars {
+    display: flex;
+    width: 100%;
     justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+footer a {
+    color: black;
+}
+
+.venus {
+    /* position: absolute; */
+    justify-content:left;
+    width: 10%;
+    padding-left: 20px;
+}
+
+.about-me{ 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.test {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.liberty { 
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-evenly;
+
+}
+
+.saturn {
+    /* position: absolute; */
+    /* left: 415px;
+    bottom: 18px; */
+    /* justify-content: center; */
+    width: 100%;
+
 }
 
 .work-card {
     display: flex;
-    padding-left: 100px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+}
+.titan {
+    position: absolute;
+    justify-content:left;
+    width: 10%;
+    padding-left: 20px;
 }
 
-.work-card img {
-    padding-left: 200px;
+.neptune {
+    position: absolute;
+    left: 430px;
+    bottom: 18px;
+    justify-content: flex-start;
+    color: white;
+    background-color: cornflowerblue;
+    padding: 20px;
+    border-radius: 0px 25px 25px 0px;
 }
 
-.work-card h1 {
-    padding-top: 200px;
+.tiger {
+    position: absolute;
+    justify-content: flex-start;
+    bottom: 10px;
+    left: 230px;
+    color: white;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 0px 25px 25px 0px;
 }
+
