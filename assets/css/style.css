@@ -1,30 +1,35 @@
 
 header { 
+    display: flex;
     background-color: #064635;
-    /* display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap; */
     height: 100px;
     text-align: right;
+    justify-content: flex-end;
 }
 
 .first {
-    display: flex;
     align-items: center;
 }
 
 .nav-list {
-    width: 100%;
+    /* width: 100%;
+    align-items: center; */
     display: flex;
+    width: 100%;
+    justify-content: center;
     align-items: center;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300px;
+
 }
 
 .lucas {
+    color: white;
     text-align: left;
-    background-color: cornflowerblue;
-    padding-left: 100px;
-    border-radius: 0px 25px 25px 0px;
-    justify-content: center;
+    width: 10%;
+    padding-left: 20px;
+
 }
 
 body {
@@ -51,6 +56,11 @@ nav {
 .second p {
     margin-right: 20px;
     color: white;
+    border: 5px solid white;
+    background-color: darkgray;
+    padding: 20px;
+    border-radius: 0px 25px 0px 25px;
+
 }
 
 li {
@@ -83,7 +93,7 @@ footer {
 .jupiter {
     width: 10%;
     padding-left: 20px;
-    /* text-align: right */
+    justify-content: left;
 }
 
 .mars {
@@ -130,11 +140,11 @@ footer a {
 }
 
 .saturn {
-    /* position: absolute; */
+    position: absolute;
     /* left: 415px;
     bottom: 18px; */
     /* justify-content: center; */
-    width: 100%;
+    width: 80%;
     color: white;
 
 }
@@ -161,7 +171,7 @@ footer a {
 
 .neptune {
     position: absolute;
-    left:220px;
+    left:412px;
     bottom: 25px;
     justify-content: flex-start;
     color: white;
@@ -173,11 +183,11 @@ footer a {
 .tiger {
     position: absolute;
     justify-content: flex-start;
-    bottom: 20px;
-    left: 120px;
+    bottom: 40px;
+    left: 215px;
     color: white;
     background-color: cornflowerblue;
-    padding: 10px;
+    padding: 15px;
     border-radius: 0px 25px 25px 0px;
 }
 
