@@ -1,4 +1,4 @@
-# My Portfolio
+My Portfolio
 
 I wanted to do my best in meeting the acceptance criteria. NOT for grade sake but for my own gauge of ability. I typed out every line of code instad of copy pasting because I am new to coding and I want to develop those skills and best practices.
 
@@ -15,20 +15,5 @@ No installation necessary. Simple html website.
 
 Shows my work and contact information in one location. 
 
-## mock up links
+![alt text] (C:\Users\lucas\code\homework\unit 2\My-Portfolio\assets\images\my-port-top.jpg)
 
-```md
-![portfolio-top](assets/images/my-port-top.jpg)
-![portfolio-bottom](assets/images/my-port-bottom.png)
-```
-
-## Collaborators
-
-none offically but a huge shoutout to the study group for help when I get stuck. 
-
-## Tutorials and Resources used
-    -w3schools
-    -webMD
-    -flexfroggy
-    -css-tricks: a complete guide to flexbox
-    
