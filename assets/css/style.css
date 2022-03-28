@@ -191,3 +191,12 @@ footer a {
     border-radius: 0px 25px 25px 0px;
 }
 
+
+@media screen and (max-width: 992px) {
+    .work-card{ 
+        width:50%
+    }
+}
+
+
+
