@@ -33,7 +33,8 @@ header {
 }
 
 body {
-    background-image: linear-gradient(to right, black, darkblue)
+    background-image: linear-gradient(to right, black, darkblue);
+    width:100%;
 }
 
 nav {
@@ -197,6 +198,18 @@ footer a {
 @media screen and (max-width: 992px) {
     .work-card{ 
         width:50%
+    }
+}
+
+@media screen and (max-width: 320px){
+    .work-card{
+        width:100%
+    }
+    main{
+        width:100%;
+    }
+    header{
+        width:100%;
     }
 }
 
