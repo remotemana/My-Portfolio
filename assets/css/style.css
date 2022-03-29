@@ -96,6 +96,7 @@ footer {
     width: 10%;
     padding-left: 20px;
     justify-content: left;
+    border-right: 10px solid white;
 }
 
 .mars {
@@ -118,6 +119,7 @@ footer a {
     width: 10%;
     padding-left: 20px;
     color: white;
+    margin-top: 50px;
 }
 
 .super {
@@ -162,7 +164,9 @@ footer a {
     /* justify-content: center; */
     width: 80%;
     color: white;
-
+    border-left: 10px solid white;
+    padding-left: 40px;
+    margin-top: 50px;
 }
 
 .giantpic {
@@ -194,12 +198,12 @@ footer a {
     width: 10%;
     padding-left: 20px;
     color: white;
+    border-right: 10px solid white;
+    margin-right: 40px;
 }
 
 .neptune {
     position: absolute;
-    left:412px;
-    bottom: 40px;
     justify-content: flex-start;
     color: white;
     background-color: cornflowerblue;
