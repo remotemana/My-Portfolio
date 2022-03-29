@@ -18,8 +18,8 @@ Shows my work and contact information in one location.
 ## mock up links
 
 ```md
-![portfolio-top](assets/images/my-port-top.jpg)
-![portfolio-bottom](assets/images/my-port-bottom.png)
+![portfolio-top](./assets/images/my-port-top.jpg)
+![portfolio-bottom](.\assets\images\my-port-bottom.png)
 ```
 
 ## Collaborators
