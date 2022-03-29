@@ -188,13 +188,6 @@ footer a {
     border: 5px solid darkcyan;
     border-radius: 0px 25px 0px 25px;
     margin-bottom: 50px;
-    filter: grayscale(100%);
-}
-
-.onyx img:hover {
-    filter: grayscale(0%);
-    transition: 3s;
-    cursor: grabbing
 }
 
 .europa {
@@ -205,21 +198,18 @@ footer a {
 .work-card {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 50px;
+    /* flex-direction: row; */
+    /* position: relative;
+    width: 45%;
+    padding: 10px;
+     */
 }
 
 .work-card img {
     border: 5px solid darkcyan;
     border-radius: 0px 25px 0px 25px;
-    filter: grayscale(100%);
+    
 }
-
-.work-card img:hover {
-    filter: grayscale(0%);
-    transition: 3s;
-    cursor: grabbing
-}
-
 
 .titan {
     margin-top: 50px;
