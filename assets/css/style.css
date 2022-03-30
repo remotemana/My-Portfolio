@@ -249,7 +249,7 @@ footer a {
 .work-card img {
     border: 5px solid darkcyan;
     border-radius: 0px 25px 0px 25px;
-    filter: grayscale(100%);
+    filter: grayscale(100%); 
 }
 
 .work-card img:hover {
