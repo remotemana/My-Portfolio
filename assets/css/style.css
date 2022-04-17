@@ -98,6 +98,7 @@ footer {
     margin-bottom: 50px;
 }
 
+
 .jupiter {
     display: flex;
     width: 10%;
@@ -178,7 +179,7 @@ footer a {
     margin-top: 50px;
 }
 
-.saturn p {
+.p {
     margin-top: 40px;
 }
 
@@ -230,13 +231,15 @@ footer a {
     cursor: grabbing
 }
 
+
+
 .europa {
     position: absolute;
     color: white;
     background-color: cornflowerblue;
     border-radius: 0px 25px 25px 0px;
     padding: 15px;
-    margin-top: 43%;
+    margin-top: 50%;
     margin-left: 5px;
 }
 
@@ -247,6 +250,8 @@ footer a {
 }
 
 .work-card img {
+    width: 900px;
+    height: 500px;
     border: 5px solid darkcyan;
     border-radius: 0px 25px 0px 25px;
     filter: grayscale(100%); 
@@ -258,6 +263,9 @@ footer a {
     cursor: grabbing
 }
 
+.onyx a {
+    width: 100%;
+}
 
 .titan {
     margin-top: 50px;
@@ -296,7 +304,6 @@ footer a {
 
 @media screen and (max-width: 1024px) {
     .work-card img {
-        width: 75%;
         margin-left: 50px;
     }
 
@@ -345,10 +352,90 @@ footer a {
 
     .test p {
         display: flex;
+        margin-top: 300px;
     }
 
     .liberty {
         margin-top: 200px;
     }
+}
+
+@media screen and (max-width: 425px) {
+.nav-list {
+    margin-left: 60px;
+    margin-right: 0px;
+    justify-content: initial;
+}
+
+.europa {
+    border-radius: 25px;
+    margin-left: 85px;
+    margin-top: 330px;
+}
+
+.work-card img {
+    width: 300px;
+    height: 200px;
+}
+
+header {
+    display: block;
+    height: inherit;
+}
+
+.tiger {
+    margin-left: 60px;
+    border-radius: 25px;
+    margin-top: 160px
+}
+
+.nav-list a {
+    margin: 10px;
+}
+
+.saturn {
+    border: none;
+    width: 80%;
+}
+
+.titan {
+    border: none;
+}
+
+.mars { 
+    margin-top: 45px;
+    display: block;
+    margin-left: 65px;
+}
+
+.lucas {
+    display: contents;
+    text-align:center;
+}
+
+.jupiter {
+    border: none;
+}
+
+.second p {
+    margin-right: 70px;
+}
+
+.test p {
+    max-width: 80%;
+}
+
+.saturn p {
+    margin-bottom: -230px;
+    margin-left: 10px
+}
+
+.onyx a {
+    margin-top: 200px;
+}
+
+.onyx img {
+    margin-left: 70px;
+}
 
 }
