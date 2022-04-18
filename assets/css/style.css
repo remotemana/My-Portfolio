@@ -179,7 +179,7 @@ footer a {
     margin-top: 50px;
 }
 
-.p {
+.saturn p {
     margin-top: 40px;
 }
 
@@ -214,7 +214,7 @@ footer a {
 .onyx {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 80%;
 }
 
 .onyx img {
@@ -231,15 +231,13 @@ footer a {
     cursor: grabbing
 }
 
-
-
 .europa {
     position: absolute;
     color: white;
     background-color: cornflowerblue;
     border-radius: 0px 25px 25px 0px;
     padding: 15px;
-    margin-top: 50%;
+    margin-top: 550px;
     margin-left: 5px;
 }
 
@@ -297,7 +295,7 @@ footer a {
     background-color: cornflowerblue;
     padding: 10px;
     border-radius: 0px 25px 25px 0px;
-    margin-top: 16%;
+    margin-top: 28%;
     margin-left: 5px;
 }
 
@@ -305,18 +303,22 @@ footer a {
 @media screen and (max-width: 1024px) {
     .work-card img {
         margin-left: 50px;
+        width: 500px;
+        height: 400px;
     }
 
     .tiger {
         padding: 10px;
         font-size: 10px;
-        margin-top: 240px;
-        margin-left: 54px;
+        margin-top: 330px;
+        margin-left: 55px;
     }
 
     .onyx img {
-        width: 75%;
-        margin-left: 7%;
+        width: 500px;
+        height:400px;
+        margin-left: 14%;
+        margin-top: 10px;
     }
 
     .contact-me {
@@ -327,8 +329,8 @@ footer a {
     .europa {
         padding: 10px;
         font-size: 10px;
-        margin-top: 290px;
-        margin-left: 63px;
+        margin-top: 337px;
+        margin-left: 97px;
     }
    
     .mars {
@@ -341,7 +343,7 @@ footer a {
     }
 
     .saturn p {
-        margin-bottom: 50px;
+        margin-bottom: -50px;
     }
 
     .test img {
@@ -352,28 +354,97 @@ footer a {
 
     .test p {
         display: flex;
-        margin-top: 300px;
+        margin-top: 60px;
     }
 
     .liberty {
-        margin-top: 200px;
+        margin-top: 45px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lucas h1{
+        display: block;
+        margin-left: 20px;
+    }
+
+    .nav-list {
+        margin-left: 65px;
+        margin-right: 5px;
+    }
+
+    .second p {
+        margin-right: 60px;
+    }
+
+    .saturn p {
+        margin-bottom: -250px;
+    }
+
+    .test p {
+        margin-top: 300px;
+    }
+
+    .test img {
+        margin-left: 130px;
+    }
+
+    .saturn {
+        border: none;
+    }
+    
+    .test h1 {
+        margin-top: 265px;
+    }
+
+    .onyx img {
+        margin-left: -2%;
+    }
+
+    .liberty {
+        margin-top: 100px;
+    }
+
+    .work-card img {
+        margin-left: 0px;
+    }
+    
+    .titan {
+        border: none;
+    }
+
+    .europa {
+        margin-left: -5px;
+    }
+
+    .tiger {
+        margin-left: 5px;
+    }
+
+    .jupiter {
+        border: none;
     }
 }
 
 @media screen and (max-width: 425px) {
 .nav-list {
-    margin-left: 60px;
+    margin-left: 65px;
     margin-right: 0px;
     justify-content: initial;
 }
 
+.new {
+    margin-top: -155px;
+}
+
 .europa {
     border-radius: 25px;
-    margin-left: 85px;
-    margin-top: 330px;
+    margin-left: 30px;
+    margin-top: 375px;
 }
 
 .work-card img {
+    margin-left: -60px;
     width: 300px;
     height: 200px;
 }
@@ -384,7 +455,7 @@ header {
 }
 
 .tiger {
-    margin-left: 60px;
+    margin-left: 47px;
     border-radius: 25px;
     margin-top: 160px
 }
@@ -395,10 +466,11 @@ header {
 
 .saturn {
     border: none;
-    width: 80%;
+    width: 300px;
 }
 
 .titan {
+    margin-top: 120px;
     border: none;
 }
 
@@ -418,16 +490,21 @@ header {
 }
 
 .second p {
-    margin-right: 70px;
+    margin-right: 80px;
 }
 
 .test p {
     max-width: 80%;
 }
 
+.test img {
+    margin-left: -10px;
+}
+
 .saturn p {
     margin-bottom: -230px;
-    margin-left: 10px
+    margin-left: 15px;
+    margin-top: 300PX;
 }
 
 .onyx a {
@@ -435,7 +512,14 @@ header {
 }
 
 .onyx img {
-    margin-left: 70px;
+    margin-left: -100px;
+    width:300px;
+    height: 200px;
+}
+
+.liberty {
+    margin-top: 200px;
+    margin-left: 150px;
 }
 
 }
