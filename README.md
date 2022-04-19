@@ -15,7 +15,7 @@ Shows my work and contact information in one location.
 
 ## mock up links
 
-https://github.com/remotemana/My-Portfolio
+https://github.com/remotemana/My-Portfolio ||
 https://remotemana.github.io/My-Portfolio/
 
 ![425pxQuery](./assets/images/425-query.gif)
